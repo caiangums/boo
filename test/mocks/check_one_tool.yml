@@ -1,0 +1,5 @@
+onetool:
+  tag: "onetool"
+  name: "One Tool"
+  command:
+    check: "echo"

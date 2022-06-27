@@ -1,0 +1,26 @@
+validateemptytool:
+  tag: "validateemptytool"
+  name: "Validate Empty Tool - validate field is empty (default: true)"
+  command:
+    check: "echo"
+
+validatetruetool:
+  tag: "validatetruetool"
+  name: "Validate True Tool - validate field is true"
+  validate: true
+  command:
+    check: "echo"
+
+notvalidatetool:
+  tag: "notvalidatetool"
+  name: "Not Validate Tool - validate field is false"
+  validate: false
+  command:
+    check: "missingtool"
+
+notvalidatewithmessagetool:
+  tag: "notvalidatewithmessagetool"
+  name: "Not Validate with Message Tool - validate field is false and message"
+  validate: false
+  message:
+    not_validating: "Not Validating Message."

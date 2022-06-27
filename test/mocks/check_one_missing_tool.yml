@@ -1,0 +1,5 @@
+missingtool:
+  tag: "missingtool"
+  name: "Missing Tool"
+  command:
+    check: "missingtool"

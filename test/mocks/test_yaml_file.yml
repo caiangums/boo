@@ -1,0 +1,5 @@
+typhon:
+  tag: "typhon"
+  name: "Typhon"
+  command:
+    check: "typhon"

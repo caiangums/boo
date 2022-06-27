@@ -1,0 +1,13 @@
+typhon:
+  tag: "typhon"
+
+edon:
+  tag: "edon"
+  command:
+    check: "echo"
+
+meow:
+  tag: "meow"
+  name: "Meow Tool"
+  command: "echo"
+

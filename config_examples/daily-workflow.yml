@@ -1,0 +1,37 @@
+node:
+  tag: "node"
+  name: "Node"
+  command:
+    check: "node"
+
+ruby:
+  tag: "ruby"
+  name: "Ruby"
+  command:
+    check: "ruby"
+
+vscode:
+  tag: "vscode"
+  name: "VSCode"
+  command:
+    check: "code"
+
+postgres:
+  tag: "postgres"
+  name: "PostgresSQL"
+  command:
+    check: "postgres"
+
+webstorm:
+  tag: "webstorm"
+  validate: false
+  message:
+    not_validating: "Check on how to install WebStorm online!"
+
+essentialtool:
+  tag: "essentialtool"
+  name: "Essential Tool"
+  command:
+    check: "essentialtool"
+  message:
+    not_present: "This is an essential tool and must be installed!"

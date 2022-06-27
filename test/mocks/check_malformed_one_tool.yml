@@ -1,0 +1,13 @@
+malformed:
+  tag: "malformed"
+
+malformed_name:
+  tag: "malformed_name"
+  command:
+    check: "echo"
+
+malformed_command:
+  tag: "malformed_command"
+  name: "Malformed Yaml Tool"
+  command: "echo"
+

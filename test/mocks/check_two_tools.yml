@@ -1,0 +1,11 @@
+onetool:
+  tag: "onetool"
+  name: "One Tool"
+  command:
+    check: "echo"
+
+secondtool:
+  tag: "secondtool"
+  name: "Second Tool"
+  command:
+    check: "echo"
